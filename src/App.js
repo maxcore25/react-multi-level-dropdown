@@ -5,10 +5,6 @@ import { CSSTransition } from 'react-transition-group';
 function App() {
   return (
     <Navbar>
-      <NavItem icon={<Icon />} />
-      <NavItem icon={<Icon />} />
-      <NavItem icon={<Icon />} />
-
       <NavItem icon={<Icon />}>
         <DropdownMenu></DropdownMenu>
       </NavItem>
